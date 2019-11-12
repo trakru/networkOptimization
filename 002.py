@@ -9,7 +9,7 @@ from ortools.constraint_solver import pywrapcp
 def create_data_model():
     """Stores the data for the problem."""
     data = {}
-    # Locations in block units
+    # Locations in seconds. to convert to degrees use high school math
     data['locations'] = [
         (152045, -299332),
         (152042, -299334),
